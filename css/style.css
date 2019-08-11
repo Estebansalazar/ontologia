@@ -158,7 +158,7 @@ h6 {
 
 .floating-wpp .floating-wpp-popup.active {
   padding: 0 12px 12px 12px;
-  width: 260px;
+  width: 360px;
   height: auto;
   bottom: 82px;
   opacity: 1;
@@ -1847,11 +1847,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   #schedule .nav-tabs a {
     padding: 8px 50px;
   }
+  .pcss{
+    font-size: 15px !important;
+  }
 }
 
 @media (max-width: 574px) {
   #venue .venue-info h3 {
     font-size: 24px;
+  }
+
+  .h1css{
+    font-size: 60px !important;
+  }
+
+  .pcss{
+    font-size: 15px !important;
   }
 }
 
@@ -1859,10 +1870,52 @@ body.mobile-nav-active #mobile-nav-toggle {
   #schedule .nav-tabs a {
     padding: 8px 30px;
   }
+
+  .h1css{
+    font-size: 60px !important;
+  }
+
+  .pcss{
+    font-size: 15px !important;
+  }
 }
 
 @media (max-width: 460px) {
   #subscribe button {
-    margin-top: 10px;
+    margin-top: 30px;
   }
+
+  .h1css{
+    font-size: 60px !important;
+  }
+
+  .pcss{
+    font-size: 15px !important;
+  }
+}
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .nofunca{
+    font-size: 15px !important;
+    color: white !important;
+  }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .nofunca{
+    font-size: 15px !important;
+    color: white !important;
+
+  }
+  
 }

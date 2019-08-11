@@ -141,7 +141,7 @@ jQuery(document).ready(function( $ ) {
 $.fn.floatingWhatsApp = function (options) {
   var settings = $.extend({
       phone: '56996185981',
-      message: '',
+      message: 'Me gustaría conocer más acerca de los servicios de ontología',
       size: '72px',
       backgroundColor: '#25D366',
       position: 'right',
@@ -289,7 +289,7 @@ $.fn.floatingWhatsApp = function (options) {
       var apilink = 'https://';
 
       apilink += isMobile ? 'api' : 'web';
-      apilink += '.whatsapp.com/send?phone=' + '56990660252';
+      apilink += '.whatsapp.com/send?phone=' + '56990660252' ;
 
       window.open(apilink);
   }
