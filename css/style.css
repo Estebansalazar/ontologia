@@ -585,7 +585,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.jpg) top center;
+  background: url(../img/tesoreria.png) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -593,7 +593,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: rgba(7, 15, 44, 0.637);
+  background: rgba(9, 32, 68, 0.623);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -605,7 +605,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: absolute;
   bottom: 0;
   left: 0;
-  top: 90px;
+  top: 170px;
   right: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -795,7 +795,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about:before {
   content: "";
-  background: rgba(0, 0, 0, 0.829);
+  background: rgba(28, 112, 168, 0.829);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1901,7 +1901,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #intro .intro-container {
-    top: 70px;
+    top:170px;
   }
 
   #intro h1 {
