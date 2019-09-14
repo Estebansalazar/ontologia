@@ -1955,16 +1955,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 480px) {
+
+
+
   #schedule .nav-tabs a {
     padding: 8px 30px;
   }
 
   .h1css{
     font-size: 60px !important;
-  }
+  }s
 
   .pcss{
     font-size: 15px !important;
+  }
+
+  .gonza{
+    margin-top:50px;
+  }
+
+  .gavi{
+    margin-top:20px;
   }
 }
 
